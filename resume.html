@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Samuel Isirima - Resume</title>
+    <style>
+        @media print {
+            body { margin: 0; }
+            .container { max-width: 100%; }
+        }
+        
+        body {
+            font-family: 'Calibri', 'Arial', sans-serif;
+            line-height: 1.4;
+            color: #000;
+            max-width: 850px;
+            margin: 0 auto;
+            padding: 40px;
+            background: #fff;
+        }
+        
+        .header {
+            text-align: left;
+            margin-bottom: 20px;
+        }
+        
+        .header h1 {
+            font-size: 24px;
+            font-weight: bold;
+            margin: 0 0 2px 0;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+        
+        .header .subtitle {
+            font-size: 16px;
+            margin: 0 0 5px 0;
+        }
+        
+        .contact-info {
+            font-size: 14px;
+            margin-bottom: 15px;
+        }
+        
+        h2 {
+            font-size: 18px;
+            font-weight: bold;
+            text-transform: uppercase;
+            margin: 20px 0 8px 0;
+            border-bottom: none;
+        }
+        
+        .section {
+            margin-bottom: 15px;
+        }
+        
+        .summary {
+            font-size: 14px;
+            text-align: justify;
+            line-height: 1.5;
+        }
+        
+        .skills-section {
+            font-size: 14px;
+            line-height: 1.6;
+        }
+        
+        .skills-section div {
+            margin-bottom: 4px;
+        }
+        
+        .skill-category {
+            font-weight: bold;
+        }
+        
+        .job-title {
+            font-weight: bold;
+            font-size: 14px;
+            margin-bottom: 2px;
+        }
+        
+        .job-dates {
+            font-size: 14px;
+            margin-bottom: 8px;
+        }
+        
+        .job-description {
+            font-size: 14px;
+            font-style: italic;
+            margin-bottom: 6px;
+        }
+        
+        .experience-item {
+            margin-bottom: 30px;
+        }
+        
+        .experience-item ul {
+            margin: 6px 0;
+            padding-left: 0;
+            list-style: none;
+        }
+        
+        .experience-item li {
+            font-size: 14px;
+            margin-bottom: 3px;
+            line-height: 1.5;
+            text-align: justify;
+        }
+        
+        .experience-item li:before {
+            content: "";
+            display: inline-block;
+            width: 0;
+        }
+        
+        .tech-skills {
+            font-size: 14px;
+            margin-top: 6px;
+        }
+        
+        .ai-section ul {
+            margin: 6px 0;
+            padding-left: 0;
+            list-style: none;
+        }
+        
+        .ai-section li {
+            font-size: 14px;
+            margin-bottom: 3px;
+            line-height: 1.5;
+        }
+        
+        .education-item {
+            font-size: 14px;
+            margin-bottom: 4px;
+        }
+        
+        .education-item .degree {
+            font-weight: bold;
+        }
+        
+        .additional-info div {
+            font-size: 14px;
+            margin-bottom: 3px;
+            line-height: 1.5;
+        }
+        
+        .info-label {
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>SAMUEL ISIRIMA</h1>
+        <div class="subtitle">Senior Full-Stack Developer</div>
+        <div class="contact-info"><a href="mailto:psalmey01@gmail.com">psalmey01@gmail.com</a> | Remote | UTC+1 (Lagos, Nigeria)</div>
+    </div>
+
+    <div class="section">
+        <h2>SUMMARY</h2>
+        <div class="summary">
+            Senior full-stack developer with 6+ years building scalable, secure web applications for healthcare and SaaS platforms. Proven track record architecting systems that process billions of records while maintaining HIPAA-compliant security standards. Expert in the modern JavaScript stack (Node.js, TypeScript, React) with PostgreSQL and AWS infrastructure. Passionate about building purpose-driven technology that improves lives, with recent focus on AI-powered features and personalization. Strong collaborator experienced in remote-first, cross-functional teams delivering high-impact features from concept to production.
+        </div>
+    </div>
+
+    <div class="section">
+        <h2>TECHNICAL EXPERTISE</h2>
+        <div class="skills-section">
+            <div><span class="skill-category">Core Stack:</span> Node.js, TypeScript, React, PostgreSQL, PHP/Laravel</div>
+            <div><span class="skill-category">Frontend:</span> React, Modern JavaScript/ES6+, Component-based Architecture</div>
+            <div><span class="skill-category">Backend:</span> Node.js, REST APIs, Microservices, Event-Driven Architecture</div>
+            <div><span class="skill-category">Databases:</span> PostgreSQL, MongoDB, MySQL, Redis (SQL and NoSQL)</div>
+            <div><span class="skill-category">Cloud & DevOps:</span> AWS (EC2, RDS, S3, Lambda, SQS), Docker, CI/CD Pipelines</div>
+            <div><span class="skill-category">Infrastructure:</span> AWS Infrastructure Management, DNS Configuration, Linux Administration</div>
+            <div><span class="skill-category">Message Queues:</span> RabbitMQ, AWS SQS, Redis Queue</div>
+            <div><span class="skill-category">AI/ML Integration:</span> OpenAI API, Prompt Engineering</div>
+            <div><span class="skill-category">Project Management:</span> Agile Methodologies, Asana, Jira</div>
+        </div>
+    </div>
+
+    <div class="section">
+        <h2>PROFESSIONAL EXPERIENCE</h2>
+        
+        <div class="experience-item">
+            <div class="job-title">Senior Full-Stack Engineer, Turing Client Company - California, USA (Remote)</div>
+            <div class="job-dates">Mar 2024 - Sept 2025</div>
+            <div class="job-description">Led full-stack development for enterprise sports platform, architecting secure, scalable systems with zero-downtime deployments.</div>
+            <ul>
+                <li>• Architected and executed migration from legacy CMS to modern stack with zero downtime, ensuring continuous service availability for users</li>
+                <li>• Designed multi-region AWS infrastructure (EC2, RDS, S3) with automated failover, achieving 99.9% uptime SLA</li>
+                <li>• Built subscription management platform with Stripe integration featuring comprehensive error handling, payment retry logic, and user-friendly billing workflows</li>
+                <li>• Established CI/CD pipelines and trunk-based development workflow using GitHub, reducing deployment time by 60%</li>
+                <li>• Implemented monitoring and observability using Prometheus and CloudWatch for proactive issue detection and system health tracking</li>
+                <li>• Migrated search infrastructure from AWS ElasticSearch to custom built search system, reducing operational costs by $36K annually while improving performance</li>
+                <li>• Collaborated with cross-functional teams to deliver high-quality features aligned with product roadmap</li>
+            </ul>
+            <div class="tech-skills"><span class="skill-category">Tech Skills -</span> TypeScript, AWS (EC2, RDS, S3), PostgreSQL, CI/CD, GitHub, React</div>
+        </div>
+
+        <div class="experience-item">
+            <div class="job-title">Full-Stack Engineer, Adsit Digital LLC - Virginia, USA (Remote)</div>
+            <div class="job-dates">May 2023 - Jan 2024</div>
+            <div class="job-description">Co-architected identity resolution SaaS platform processing billions of sensitive records with event-driven microservices and strict data isolation.</div>
+            <ul>
+                <li>• Designed and built microservices architecture using Node.js handling thousands of concurrent requests with high reliability</li>
+                <li>• Developed distributed data pipeline using RabbitMQ for asynchronous processing across services</li>
+                <li>• Reduced API response time from 500ms to under 100ms through PostgreSQL query optimization and caching strategies</li>
+                <li>• Implemented secure multi-tenant system with proper data isolation, resource limits, and authentication controls for handling sensitive user data</li>
+                <li>• Built comprehensive error handling with circuit breakers and retry logic for system resilience</li>
+                <li>• Established PostgreSQL database modeling standards and query optimization best practices</li>
+                <li>• Created detailed technical documentation for system architecture and third-party API integration patterns</li>
+                <li>• Designed and shipped features that generated over 80% of company revenue through close collaboration with Product team</li>
+            </ul>
+            <div class="tech-skills"><span class="skill-category">Tech Skills -</span> Node.js, TypeScript, Python, PostgreSQL, AWS, RabbitMQ, Docker, REST APIs</div>
+        </div>
+
+        <div class="experience-item">
+            <div class="job-title">Software Engineer</div>
+            <div class="job-title">Arraund Technologies LLC - Port Harcourt, Nigeria</div>
+            <div class="job-dates">Dec 2020 - Nov 2022</div>
+            <div class="job-description">Built multi-tenant eCommerce SaaS platform from scratch, architecting secure backend systems and consumer-facing features.</div>
+            <ul>
+                <li>• Architected microservices system using Node.js and TypeScript with event-driven design patterns</li>
+                <li>• Designed REST APIs with versioning, authentication, rate limiting, and comprehensive error handling</li>
+                <li>• Implemented message queue infrastructure using RabbitMQ for order processing, notifications, and payment workflows</li>
+                <li>• Built payment integration system supporting Stripe and Paystack with idempotent operations and secure transaction handling</li>
+                <li>• Designed MySQL schemas optimized for multi-tenant access patterns and query performance</li>
+                <li>• Deployed services using Docker with CI/CD pipelines on AWS for automated testing and deployment</li>
+                <li>• Set up monitoring and alerting infrastructure using CloudWatch for tracking system health and performance</li>
+                <li>• Collaborated with Design and Product teams in agile environment to deliver user-centered features</li>
+            </ul>
+            <div class="tech-skills"><span class="skill-category">Tech Skills -</span> Node.js, TypeScript, React, MySQL, AWS, RabbitMQ, Docker</div>
+        </div>
+
+        <div class="experience-item">
+            <div class="job-title">Junior Software Engineer, JS and N Farms - Port Harcourt, Nigeria</div>
+            <div class="job-dates">Jan 2019 - Feb 2020</div>
+            <div class="job-description">Developed internal ERP system replacing manual processes with automated workflows and real-time analytics.</div>
+            <ul>
+                <li>• Designed MySQL database schemas and REST APIs for inventory and sales management</li>
+                <li>• Built real-time reporting dashboards for business metrics and analytics</li>
+                <li>• Implemented scheduled jobs for automated inventory alerts and daily reports</li>
+                <li>• Collaborated with stakeholders to gather requirements and deliver solutions that improved operational efficiency</li>
+            </ul>
+            <div class="tech-skills"><span class="skill-category">Tech Skills -</span> JavaScript, MySQL, REST APIs</div>
+        </div>
+
+        <div class="experience-item">
+            <div class="job-title">Backend Engineering Intern, Bluhuss Technology - Port Harcourt, Nigeria</div>
+            <div class="job-dates">Feb 2017 - Sept 2017</div>
+            <div class="job-description">Developed backend features for social networking platform, gaining foundational experience in production systems.</div>
+            <div class="tech-skills"><span class="skill-category">Tech Skills -</span> HTML, CSS, JQuery, Javascript, PHP</div>
+        </div>
+    </div>
+
+    <div class="section">
+        <h2>AI & EMERGING TECHNOLOGIES</h2>
+        <div class="ai-section">
+            <ul>
+                <li>• Built AI-powered features integrating OpenAI API for content generation, personalization, and analysis</li>
+                <li>• Developed prompt engineering strategies for reliable and consistent LLM outputs in production environments</li>
+                <li>• Created evaluation frameworks for measuring AI model performance and accuracy</li>
+                <li>• Daily user of AI development tools GitHub Copilot and Claude code to enhance productivity and code quality</li>
+                <li>• Strong understanding of compliance requirements for platforms processing personal and health information</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="section">
+        <h2>EDUCATION</h2>
+        <div class="education-item">
+            <div class="degree">B.Eng. Electrical Electronics Engineering</div>
+            <div>Rivers State University, Nigeria | 2016 - 2021</div>
+        </div>
+    </div>
+
+    <div class="section">
+        <h2>ADDITIONAL INFORMATION</h2>
+        <div class="additional-info">
+            <div>3+ years working remotely & effectively across multiple timezones in distributed teams with clear, consistent, proactive, and async-friendly communication approach. Passionate about using technology to improve access to healthcare and support underserved communities. Located in Lagos, Nigeria (UTC+1).</div>
+        </div>
+    </div>
+</body>
+</html>
